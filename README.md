@@ -11,7 +11,7 @@ This project goal is to create a docker image with the following build tools inc
 
 * Eclipse Temurin JDK 17.0.10
 * Apache Maven 3.9.6
-* Latest version of NodeJS 18
+* Latest version of NodeJS 20
 * Latest version of Chrome (for execution of UI tests)
 
 ## How-to

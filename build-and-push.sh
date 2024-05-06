@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-TAG=maven3-jdk17-node18
+TAG=maven3-jdk17-node20
 
 docker buildx build --push --platform linux/amd64 -t bwajtr/docker-builder-maven-node-chrome:$TAG .
 
