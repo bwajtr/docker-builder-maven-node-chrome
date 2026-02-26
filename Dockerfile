@@ -2,7 +2,7 @@ FROM maven:3.9.6-eclipse-temurin-17
 
 ## START install node
 
-RUN curl -sL https://deb.nodesource.com/setup_20.x -o nodesource_setup.sh \
+RUN curl -sL https://deb.nodesource.com/setup_24.x -o nodesource_setup.sh \
   && bash nodesource_setup.sh \
   && apt-get install -y nodejs \
   && apt-get clean \
