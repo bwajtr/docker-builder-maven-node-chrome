@@ -9,7 +9,7 @@ This docker image can be used to build and UI test Java based web applications, 
 
 This project goal is to create a docker image with the following build tools included:
 
-* Eclipse Temurin JDK 17.0.10
+* Eclipse Temurin JDK 25
 * Apache Maven 3.9.6
 * Latest version of NodeJS 24
 * Latest version of Chrome (for execution of UI tests)
